@@ -1,0 +1,35 @@
+.carousel {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    height: 354px;
+    padding: 10px 40px;
+}
+
+.card_container {
+    min-width: 3376px;
+    display: flex;
+
+}
+
+.card_carousel {
+    max-width: 1072px;
+    height: 345px;
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+    padding: 0 40px;
+    border: 1px solid #CCC;
+    border-radius: 15px;
+    background: #eee;
+    transform: translateX(-100%);
+
+}
+
+.img_container {
+    max-width: 238px;
+    max-height: 238px;
+}
+.card_text_container {
+
+}
