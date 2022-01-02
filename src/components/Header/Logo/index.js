@@ -1,13 +1,12 @@
 import {Link} from "react-router-dom";
-//static
-import logo from './../../../static/LOGO.svg'
-//styles
-import './logo.css'
 
+import logo from './../../../static/LOGO.svg'
+
+import styles from './logo.module.css'
 
 const Logo = () => {
     return (
-        <div className='logo'>
+        <div className={styles.logo}>
             <Link to="/"><img src={logo} alt="LOGO"/></Link>
         </div>
     );

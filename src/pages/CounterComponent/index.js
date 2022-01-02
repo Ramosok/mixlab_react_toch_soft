@@ -1,52 +1,48 @@
-//libraries
 import {useState} from 'react';
-//components
+
 import OutputScreen from "./OutputScreen";
-import Button from "./Button";
-//styles
-import './counter.css';
+
+import styles from './counter.module.css';
+import ButtonTypical from "../../components/ButtonTypical";
 
 const CounterComponent = () => {
     const [counter, setCounter] = useState(0)
 
-    const increment = () => {
+    const handleIncrement = () => {
         setCounter(counter + 1)
     };
-    const decrement = () => {
+    const handleDecrement = () => {
 
         if (counter > 0) {
             setCounter(counter - 1)
         }
     }
-    const reset = () => {
+    const handleReset = () => {
         setCounter(0)
     }
 
     return (
-        <div className="counter">
+        <div className={styles.counter}>
             <OutputScreen
-                className="counter__screen"
+                className={styles.counter__screen}
                 action={counter}
             />
             <OutputScreen
                 action={counter % 2 === 0 ? "Введено чётное число" : "Введено  нечётное число"}
                 style={counter % 2 === 0 ? {backgroundColor: "#cb9b0e"} : {backgroundColor: "#064c01"}}
             />
-            <div className="button__wrapper">
-                <Button
-                    сlickAction={increment}
-                    title="increment"
-                    className="button"
+            <div className={styles.button__wrapper}>
+                <ButtonTypical
+                    сlickAction={handleIncrement}
+                    tittle="increment"
                 />
-                <Button
-                    сlickAction={decrement}
-                    title="decrement"
-                    className="button"
+                <ButtonTypical
+                    сlickAction={handleDecrement}
+                    tittle="decrement"
                 />
-                <Button
-                    сlickAction={reset}
-                    title="reset"
-                    className="button"
+                <ButtonTypical
+                    сlickAction={handleReset}
+                    tittle="reset"
                 />
             </div>
         </div>

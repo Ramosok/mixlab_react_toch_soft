@@ -13,17 +13,17 @@
 
 }
 
-.rabbit img {
+.rabbit_img {
     max-width: 270px;
     max-height: 365px;
 }
 
-.center__component h1 {
+.text_center {
     flex: 1 0 auto;
     font-size: 3.5em;
 }
 
-.center__component p {
+.text_center_body {
     flex: 1 0 auto;
     font-size: 1.3em;
     margin: 4%;

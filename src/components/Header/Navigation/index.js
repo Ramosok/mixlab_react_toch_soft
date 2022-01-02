@@ -1,18 +1,16 @@
 import {Link} from "react-router-dom";
-//components
+
 import ItemMenu from "./ItemMenu";
-//initialValue
+
 import {navigationList} from "./data";
-//styles
-import './navigation.css';
 
-
+import styles from './navigation.module.css';
+import stylesGlobal from './../../../index.module.css'
 
 const Navigation = () => {
-
     return (
         <>
-            <ul className='nav flex_container'>
+            <ul className={[`${styles.nav} ${stylesGlobal.flex_container}`]}>
                 {navigationList.map(({tittle, linkTo}) => <li className='item_menu' key={tittle}>
                     <ItemMenu
                         tittle={tittle}
@@ -20,6 +18,7 @@ const Navigation = () => {
                 </li>)}
             </ul>
             <Link to="/counter">Counter</Link>
+            <Link to="/counters">Counters</Link>
         </>
     );
 };

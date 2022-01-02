@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Roboto-Bold';
-    src: local('Roboto-Bold'), url(./fonts/Roboto-Bold.ttf) format('truetype');
+    src: local('Roboto-Bold'), url(static/fonts/Roboto-Bold.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Roboto-Medium';
-    src: local('Roboto-Medium'), url(./fonts/Roboto-Medium.ttf) format('truetype');
+    src: local('Roboto-Medium'), url(static/fonts/Roboto-Medium.ttf) format('truetype');
 }
 
 body {
@@ -39,8 +39,6 @@ a {
 
 #root {
     height: 100%;
-    --bg-color: #6F1EAA;
-    font-family: Roboto-Bold, serif;
     margin: 0 auto;
     display: flex;
     flex-direction: column;

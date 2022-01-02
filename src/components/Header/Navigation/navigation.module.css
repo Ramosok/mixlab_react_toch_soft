@@ -7,12 +7,9 @@
 
 .nav a {
     color: #000000;
+    font-size: 0.9em;
 }
 
 .nav li {
     padding: 0 17px;
-}
-
-.item_menu {
-    font-size: 0.9em;
 }

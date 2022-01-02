@@ -1,5 +1,3 @@
-
-
 const Contacts = ({tittleContact,viewContact}) => {
     return (
         <>

@@ -1,11 +1,11 @@
-//styles
-import './buttonTypical.css'
+import styles from './buttonTypical.module.css'
+import stylesGlobal from './../../index.module.css'
 
-const ButtonTypical = ({tittle}) => {
+const ButtonTypical = ({tittle,сlickAction}) => {
+
     return (
-        <>
-            <button className='btn__typical font_roboto_medium'>{tittle}</button>
-        </>
+        <button onClick={сlickAction}
+                className={[`${styles.btn__typical} ${stylesGlobal.font_roboto_medium}`]}>{tittle}</button>
     );
 };
 

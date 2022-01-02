@@ -1,10 +1,6 @@
-
-
-const ItemMenu = ({tittle,linkTo}) => {
+const ItemMenu = ({tittle, linkTo}) => {
     return (
-        <>
-            <a href={`${linkTo}`}>{tittle}</a>
-        </>
+        <a href={`${linkTo}`}>{tittle}</a>
     );
 };
 

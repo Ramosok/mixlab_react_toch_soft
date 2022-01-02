@@ -1,16 +1,16 @@
 export const textRight = [
     {
         tittle: 'Patients first, always',
-        body: 'We know how stressful it can be when your pet needs meds. ' +
-            'That’s why we offer free next-day delivery and even do same-day in NYC and LA. ' +
-            'We got you.'
+        body: `We know how stressful it can be when your pet needs meds. 
+               That’s why we offer free next-day delivery and even do same-day in NYC and LA. 
+               We got you.`
     },
     {
         tittle: 'Tailored care',
-        body: 'We’ll work with you and your veterinarian to find the very best solution for your pet. ' +
-            'With our custom compounded options, we can change the dosage, flavor and form. ' +
-            'We even have a flavor guarantee with over 40 options! ' +
-            'P.S. Everyone seems to love the chicken-flavored chew treats!'
+        body: `We’ll work with you and your veterinarian to find the very best solution for your pet. 
+               With our custom compounded options, we can change the dosage, flavor and form. 
+               We even have a flavor guarantee with over 40 options! 
+               P.S. Everyone seems to love the chicken-flavored chew treats!`
     },
     {
         tittle: 'Support, 7 days a week',

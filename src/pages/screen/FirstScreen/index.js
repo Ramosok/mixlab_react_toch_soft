@@ -1,23 +1,21 @@
-//components
 import CenterComponent from "./CenterComponent";
-//static
+
 import imgLeft from './../../../static/first-screen-left.svg'
 import imgRight from './../../../static/first-screen-right.svg'
-//styles
-import './firstScreen.css'
 
+import styles from './firstScreen.module.css';
+import stylesGlobal from './../../../index.module.css'
 
 const FirstScreen = () => {
     return (
-        <div className='first__screen flex_container max_width'>
-            <div className='img_left'>
+        <div className={[`${styles.first__screen} ${stylesGlobal.flex_container} ${stylesGlobal.max_width}`]}>
+            <div className={styles.img_left}>
                 <img src={imgLeft} alt=""/>
             </div>
             <CenterComponent/>
-            <div className='img_right'>
+            <div className={styles.img_right}>
                 <img src={imgRight} alt=""/>
             </div>
-
         </div>
     );
 };

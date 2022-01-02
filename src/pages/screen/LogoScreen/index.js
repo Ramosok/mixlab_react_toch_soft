@@ -1,22 +1,18 @@
-//components
 import LogoCard from "./LogoCard";
-//data
+
 import {logoList} from "./data";
-//styles
-import './logoScreen.css';
 
-
+import styles from './logoScreen.module.css';
 
 const LogoScreen = () => {
     return (
-        <div className='logo_screen_container'>
-            {logoList.map(({img}) =>
+        <div className={styles.logo_screen_container}>
+            {logoList.map(({img,id}) =>
                 <LogoCard
-                    key={Math.random()}
+                    key={id}
                     img={img}
                 />)}
         </div>
     );
 };
-
 export default LogoScreen;

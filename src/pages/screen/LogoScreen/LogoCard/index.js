@@ -1,4 +1,3 @@
-
 const LogoCard = ({img}) => {
     return (
         <div>
