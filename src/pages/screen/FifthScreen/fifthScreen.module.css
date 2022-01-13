@@ -15,19 +15,14 @@
     font-size: 43px;
 }
 
-.card_text_container_slider {
-    max-width: 709px;
-    text-align: left;
-    margin-left: 20px;
+@media (max-width: 480px) {
+    .fifth_screen_container {
+        max-width: 480px;
+        padding: 0;
+        width: 100%;
+    }
 
-}
-
-.logo_link_slider {
-    display: flex;
-    justify-content: flex-start;
-
-}
-
-.logo_link_slider img {
-    margin: 0 20px;
+    .hearts_container {
+        display: none;
+    }
 }

@@ -1,0 +1,28 @@
+.header__container {
+    max-width: 1440px;
+    width: 100vw;
+    max-height: 93px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 22px 60px;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: Roboto-Bold, serif;
+}
+
+
+@media (max-width: 767px) {
+    .header__container {
+        max-width: 767px;
+        width: 100%;
+        padding: 0 5px;
+    }
+}
+@media (max-width: 480px) {
+    .header__container {
+        max-width: 480px;
+        height: 93px;
+        padding: 0;
+        width: 100%;
+    }
+}

@@ -1,0 +1,48 @@
+.center__component {
+    text-align: center;
+    padding-top: 100px;
+    max-width: 565px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rabbit {
+    align-self: flex-end;
+    flex: 0 0 auto;
+    object-fit: contain;
+
+}
+
+.rabbit_img {
+    max-width: 270px;
+    max-height: 365px;
+}
+
+.text_center {
+    flex: 1 0 auto;
+    font-size: calc(100% + 3vh);
+}
+
+.text_center_body {
+    flex: 1 0 auto;
+    font-size: 1.3em;
+    margin: 4%;
+}
+@media (max-width: 480px) {
+    .center__component {
+        max-width: 480px;
+        padding: 0;
+        width: 100%;
+    }
+    .text_center {
+        font-size: 5vh;
+    }
+    .text_center_body {
+        font-size: 3vh;
+    }
+    .rabbit_img {
+        max-width: 170px;
+        max-height: 265px;
+    }
+}

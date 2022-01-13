@@ -11,15 +11,17 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:mixlab" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0971548-68b2-486b-a9bc-79a5905d6961" name="Default Changelist" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f0971548-68b2-486b-a9bc-79a5905d6961" name="Default Changelist" comment="add CounterCounters and Swiper">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useCounters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useCounters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CounterCounters/Counter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CounterCounters/Counter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CounterCounters/counters.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CounterCounters/counters.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CounterCounters/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CounterCounters/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,12 +31,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="22k1jAkkj6M9nSW606IyZbOSEPU" />
@@ -58,6 +65,13 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IT\TochSoft-trinee\mixlab-react\src\static" />
+      <recent name="D:\IT\TochSoft-trinee\mixlab-react\src" />
+      <recent name="D:\IT\TochSoft-trinee\mixlab-react\src\pages\HomePage" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -94,6 +108,12 @@
       <workItem from="1640620296433" duration="1826000" />
       <workItem from="1640627558324" duration="45000" />
       <workItem from="1640667581496" duration="31814000" />
+      <workItem from="1640842619563" duration="878000" />
+      <workItem from="1640917218847" duration="7413000" />
+      <workItem from="1640948642295" duration="8165000" />
+      <workItem from="1640958468062" duration="3044000" />
+      <workItem from="1641099747211" duration="11826000" />
+      <workItem from="1641316225337" duration="4402000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1640575391480</created>
@@ -130,7 +150,21 @@
       <option name="project" value="LOCAL" />
       <updated>1640597802461</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finish DZ">
+      <created>1640710357854</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640710357854</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add CounterCounters and Swiper">
+      <created>1641112051955</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641112051955</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +181,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="main" />
+                        <option value="mixlab" />
                       </list>
                     </value>
                   </entry>
@@ -166,36 +200,42 @@
     <MESSAGE value="add slider" />
     <MESSAGE value="add hearts in slider" />
     <MESSAGE value="refactoring css" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactoring css" />
+    <MESSAGE value="Finish DZ" />
+    <MESSAGE value="add CounterCounters and Swiper" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CounterCounters and Swiper" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="638" y="323" key="#ESLint" timestamp="1640367405341">
+    <state x="638" y="323" key="#ESLint" timestamp="1640842886001">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="638" y="323" key="#ESLint/0.0.1536.824@0.0.1536.824" timestamp="1640367405341" />
+    <state x="638" y="323" key="#ESLint/0.0.1536.824@0.0.1536.824" timestamp="1640842886001" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1640693685235">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1640693685235" />
-    <state width="1515" height="179" key="GridCell.Tab.0.bottom" timestamp="1640708290809">
+    <state width="1515" height="144" key="GridCell.Tab.0.bottom" timestamp="1641115663980">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="179" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1640708290809" />
-    <state width="1515" height="179" key="GridCell.Tab.0.center" timestamp="1640708290809">
+    <state width="1515" height="144" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1641115663980" />
+    <state width="1515" height="144" key="GridCell.Tab.0.center" timestamp="1641115663980">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="179" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1640708290809" />
-    <state width="1515" height="179" key="GridCell.Tab.0.left" timestamp="1640708290809">
+    <state width="1515" height="144" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1641115663980" />
+    <state width="1515" height="144" key="GridCell.Tab.0.left" timestamp="1641115663980">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="179" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1640708290809" />
-    <state width="1515" height="179" key="GridCell.Tab.0.right" timestamp="1640708290809">
+    <state width="1515" height="144" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1641115663980" />
+    <state width="1515" height="144" key="GridCell.Tab.0.right" timestamp="1641115663980">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="179" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1640708290809" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1640597812282">
+    <state width="1515" height="144" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1641115663980" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1641112068399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1640597812282" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1641112068399" />
+    <state x="431" y="145" key="search.everywhere.popup" timestamp="1640948872062">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1640948872062" />
   </component>
 </project>

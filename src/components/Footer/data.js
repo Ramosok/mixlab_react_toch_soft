@@ -74,22 +74,27 @@ export const addressList = [
 ];
 export const socialImgsAndLinksList = [
     {
+        id: 1,
         linkTo: '#',
         img: instagram
     },
     {
+        id: 2,
         linkTo: '#',
         img: facebook
     },
     {
+        id: 3,
         linkTo: '#',
         img: twitter
     },
     {
+        id: 4,
         linkTo: '#',
         img: noName
     },
     {
+        id: 5,
         linkTo: '#',
         img: google
     },

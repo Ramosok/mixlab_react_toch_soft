@@ -1,15 +1,15 @@
 import {Link} from "react-router-dom";
-//static
+import {ROUTE_NAMES} from "../../../routes/routeNames";
 import logo from './../../../static/LOGO.svg'
-//styles
-import './logo.css'
+
+import styles from './logo.module.css'
 
 
 const Logo = () => {
     return (
-        <div className='logo'>
-            <Link to="/"><img src={logo} alt="LOGO"/></Link>
-        </div>
+        <p className={styles.logo}>
+            <Link to={ROUTE_NAMES.HOME}><img src={logo} alt="LOGO"/></Link>
+        </p>
     );
 };
 

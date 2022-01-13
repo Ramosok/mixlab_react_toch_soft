@@ -1,28 +1,31 @@
-//components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
 import CardSlider from "./CardSlider";
-//data
+
 import {cardSliderList} from "./data";
-//styles
-import './slider.css';
 
-
+import styles from './slider.module.css'
+import stylesSwiper from 'swiper/css';
 
 const Slider = () => {
-
     return (
-        <div className="carousel">
-            <ul className="card_container">
-                {cardSliderList.map(({img, text, logoSocial, Link}) =>
-                    <li key={Math.random()} className='card_carousel'>
-                        <CardSlider
-                            img={img}
-                            text={text}
-                            logoSocial={logoSocial}
-                            Link={Link}
-                        />
-                    </li>)}
-            </ul>
-        </div>
+        <Swiper
+            spaceBetween={40}
+            slidesPerView={1.33}
+            centeredSlides={true}
+            loop={true}
+            effect={'cards'}
+        >
+            {cardSliderList.map(({img, text, logoSocial, Link,id}) =>
+                <SwiperSlide key={id} className={[`${stylesSwiper.swiper_class} ${styles.card_carousel}`]}>
+                    <CardSlider
+                        img={img}
+                        text={text}
+                        logoSocial={logoSocial}
+                        Link={Link}
+                    />
+                </SwiperSlide>)}
+        </Swiper>
     );
 };
 

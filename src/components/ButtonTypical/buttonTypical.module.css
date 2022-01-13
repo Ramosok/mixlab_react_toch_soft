@@ -1,8 +1,12 @@
 .btn__typical {
-    background-color: var(--bg-color);
+    background-color: #6F1EAA;
     color: #ffffff;
     border-radius: 20px;
     padding: 10px 33px 9px 43px;
-    margin-bottom: 10px;
     align-self: center;
+}
+@media (max-width: 480px) {
+    .btn__typical {
+        font-size: 1em;
+    }
 }

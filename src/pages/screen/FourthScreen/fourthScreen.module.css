@@ -1,0 +1,40 @@
+.fourth_screen_container {
+    background-color: #e3e1e1;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 8px 10%;
+}
+
+.fourth_screen_right_block {
+    padding: 15% 32px;
+}
+
+.uppercase_text {
+    text-transform: uppercase;
+    color: #ffa100;
+}
+
+.fourth_screen_tittle {
+    font-size: calc(100% + 15px);
+}
+
+.fourth_screen_body {
+    font-size: 16px;
+}
+.img_gerl_and_dog img {
+    max-height: 80vh;
+}
+
+@media (max-width: 480px) {
+    .fourth_screen_container {
+        max-width: 480px;
+        height: 100%;
+        position: relative;
+        padding: 0;
+    }
+
+    .img_gerl_and_dog {
+        display: none;
+    }
+}

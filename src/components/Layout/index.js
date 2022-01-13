@@ -1,15 +1,14 @@
 import Header from "../Header";
 import Footer from "../Footer";
 
-//styles
-import './loyout.css';
-
+import styles from './loyout.module.css';
+import stylesGlobal from './../../index.module.css'
 
 const Layout = ({children}) => {
     return (
         <>
             <Header/>
-            <div className='wrapper max_width'>
+            <div className={[`${styles.wrapper} ${stylesGlobal.max_width}`]}>
                 {children}
             </div>
             <Footer/>

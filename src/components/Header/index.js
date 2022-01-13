@@ -1,15 +1,16 @@
-//components
 import Navigation from "./Navigation";
 import UserAction from "./UserAction";
 import Logo from "./Logo";
-//styles
-import './header.css'
+import {BurgerMenu} from "../BurgerMenu";
+import styles from './header.module.css'
+import stylesGlobal from './../../index.module.css'
+
 
 
 const Header = () => {
-    console.log('header')
     return (
-        <div className='header__container flex_container'>
+        <div className={[`${styles.header__container} ${stylesGlobal.flex_container}`]}>
+            <BurgerMenu/>
             <Navigation/>
             <Logo/>
             <UserAction/>
