@@ -1,5 +1,5 @@
 export const ROUTE_NAMES = {
-    HOME: '/',
+    HOME: '/MixLabInReact',
     COUNTER: '/counter',
     COUNTERS: '/counters'
 }

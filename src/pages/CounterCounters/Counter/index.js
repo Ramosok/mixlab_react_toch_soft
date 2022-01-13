@@ -1,12 +1,11 @@
 import {memo} from "react";
 import styles from './../counters.module.css'
 
-const Counter = ({initialCount, counter, setCount, removeCounter, zeroingOutCounter}) => {
+const Counter = ({counter, setCount, removeCounter, zeroingOutCounter}) => {
     return (
         <div className={styles.one_counter}>
-            {console.log({initialCount, counter, setCount, removeCounter, zeroingOutCounter})}
           <span>
-            {counter.count > initialCount ? counter.count : counter.count = initialCount}
+            {counter.count}
           </span>
             <button type="button" onClick={() => setCount(counter.id, 'increment')}>+</button>
             <button type="button" onClick={() => setCount(counter.id, 'decrement')}>-</button>

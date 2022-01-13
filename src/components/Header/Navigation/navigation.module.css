@@ -1,5 +1,5 @@
 .nav {
-    max-width: 488px;
+    display: flex;
     padding-inline-start: 0;
     margin-block-start: 0;
     margin-block-end: 0
@@ -7,9 +7,16 @@
 
 .nav a {
     color: #000000;
-    font-size: 0.9em;
+    font-size: calc(30% + 2vh);
 }
 
 .nav li {
-    padding: 0 17px;
+    padding: 0 1vw;
+    white-space: nowrap;
+}
+
+@media (max-width: 1220px) {
+    .is_active {
+        display: none;
+    }
 }

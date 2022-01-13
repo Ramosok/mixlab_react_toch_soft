@@ -1,5 +1,4 @@
 .second__screen {
-    max-width: 1220px;
     max-height: 719px;
     margin: 0 auto;
     padding: 40px 40px 0;
@@ -8,8 +7,8 @@
 }
 
 .dog {
-    max-height: 377px;
-    max-width: 280px;
+    max-height: 100%;
+    max-width: 100%;
     object-fit: contain;
 }
 
@@ -33,8 +32,42 @@
 }
 
 .left__block h2 {
-    font-size: 2.6em;
+    font-size: calc(100% + 10px);
 }
+
 .right_block_body {
     font-size: 1em;
+}
+
+@media (max-width: 480px) {
+    .second__screen {
+        max-width: 480px;
+    }
+
+
+    .left__block h2 {
+        font-size: 1em;
+    }
+
+    .dog {
+        max-height: 177px;
+        max-width: 80px;
+        object-fit: contain;
+    }
+
+    .right_block_tittle {
+        color: #6F1EAA;
+        font-size: 12px;
+    }
+
+    .right_block_body {
+        font-size: 8px;
+    }
+    .left__block {
+        margin-right: 0;
+    }
+
+    .right__block {
+        padding-left: 0;
+    }
 }

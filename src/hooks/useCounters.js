@@ -39,9 +39,8 @@ export const useCounters = () => {
                         count:
                             direction === 'increment'
                                 ? (counter.count + 1)
-                                : (counter.count - 1),
-                    }
-                    : counter,
+                                : (counter.count > 1 ? counter.count - 1 : initialCount),
+                    } : counter,
             );
         });
     };
@@ -82,7 +81,6 @@ export const useCounters = () => {
         setCount,
         zeroingOutCounter,
         removeCounter,
-        initialCount,
         counters,
         setCounters
     }

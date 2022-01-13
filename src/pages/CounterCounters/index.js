@@ -9,7 +9,6 @@ const CounterCounters = () => {
         setCount,
         zeroingOutCounter,
         removeCounter,
-        initialCount,
         counters,
         setCounters
     } = useCounters()
@@ -22,7 +21,7 @@ const CounterCounters = () => {
 
     return (
         <div className={styles.counters}>
-            <div>Total Count - {totalCount <= initialCount ? initialCount : totalCount} </div>
+            <div>Total Count - {totalCount} </div>
             <div>Different Counts - {differentCounts} </div>
             <button type="button" onClick={() => setCounters([])}>Reset</button>
             <button type="button" onClick={addCounter}>Add Count</button>
@@ -33,7 +32,6 @@ const CounterCounters = () => {
                     setCount={setCount}
                     removeCounter={removeCounter}
                     zeroingOutCounter={zeroingOutCounter}
-                    initialCount={initialCount}
                 />
             ))}
         </div>

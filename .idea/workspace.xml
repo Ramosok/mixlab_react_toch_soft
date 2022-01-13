@@ -16,84 +16,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f0971548-68b2-486b-a9bc-79a5905d6961" name="Default Changelist" comment="Finish DZ">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hooks/useCounters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/CounterCounters/Counter/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/CounterCounters/counters.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/CounterCounters/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/screen/FourthScreen/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/fonts/Roboto-BlackItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+    <list default="true" id="f0971548-68b2-486b-a9bc-79a5905d6961" name="Default Changelist" comment="add CounterCounters and Swiper">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ButtonTypical/buttonTypical.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonTypical/buttonTypical.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ButtonTypical/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonTypical/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Address/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Address/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Contacts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Contacts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/QuickLinks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/QuickLinks/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/SocialImgsAndLinks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/SocialImgsAndLinks/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Logo/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Logo/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Logo/logo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Logo/logo.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Navigation/ItemMenu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navigation/ItemMenu/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Navigation/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navigation/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Navigation/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Navigation/navigation.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/UserAction/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/UserAction/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/UserAction/userAction.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/UserAction/userAction.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/loyout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/loyout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/fonts/Roboto-Black.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/fonts/Roboto-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/fonts/Roboto-BoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/fonts/Roboto-Italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/fonts/Roboto-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/fonts/Roboto-LightItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/fonts/Roboto-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-MediumItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/fonts/Roboto-MediumItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/fonts/Roboto-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Thin.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/fonts/Roboto-Thin.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-ThinItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/fonts/Roboto-ThinItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CounterComponent/Button/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CounterComponent/counter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CounterComponent/counter.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/CounterComponent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CounterComponent/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/FifthScreen/Slider/CardSlider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/FifthScreen/Slider/CardSlider/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/FifthScreen/Slider/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/FifthScreen/Slider/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/FifthScreen/Slider/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/FifthScreen/Slider/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/FifthScreen/Slider/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/FifthScreen/Slider/slider.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/FifthScreen/fifthScreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/FifthScreen/fifthScreen.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/FifthScreen/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/FifthScreen/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/FirstScreen/CenterComponent/centerComponent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/FirstScreen/CenterComponent/centerComponent.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/FirstScreen/CenterComponent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/FirstScreen/CenterComponent/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/FirstScreen/firstScreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/FirstScreen/firstScreen.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/FirstScreen/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/FirstScreen/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/FourthScreen/fourthScreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/FourthScreen/fourthScreen.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/FourthScreen/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/FourthScreen/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/LogoScreen/LogoCard/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/LogoScreen/LogoCard/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/LogoScreen/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/LogoScreen/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/LogoScreen/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/LogoScreen/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/LogoScreen/logoScreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/LogoScreen/logoScreen.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/SecondScreen/TextComponent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/SecondScreen/TextComponent/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/SecondScreen/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/SecondScreen/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/SecondScreen/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/SecondScreen/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/SecondScreen/secondSceen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/SecondScreen/secondSceen.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/SixthScreen/Card/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/SixthScreen/Card/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/SixthScreen/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/SixthScreen/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/SixthScreen/sixthScreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/SixthScreen/sixthScreen.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/ThirdScreen/ImageTextComponent/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/ThirdScreen/ImageTextComponent/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/ThirdScreen/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/ThirdScreen/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/screen/ThirdScreen/thirdScreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/screen/ThirdScreen/thirdScreen.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/RoutesComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/RoutesComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/routeNames.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/routeNames.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/gerlAndDog.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/girlAndDog.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks/useCounters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useCounters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CounterCounters/Counter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CounterCounters/Counter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CounterCounters/counters.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CounterCounters/counters.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/CounterCounters/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/CounterCounters/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +112,8 @@
       <workItem from="1640917218847" duration="7413000" />
       <workItem from="1640948642295" duration="8165000" />
       <workItem from="1640958468062" duration="3044000" />
-      <workItem from="1641099747211" duration="8217000" />
+      <workItem from="1641099747211" duration="11826000" />
+      <workItem from="1641316225337" duration="4402000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1640575391480</created>
@@ -228,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640710357854</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add CounterCounters and Swiper">
+      <created>1641112051955</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1641112051955</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +201,8 @@
     <MESSAGE value="add hearts in slider" />
     <MESSAGE value="refactoring css" />
     <MESSAGE value="Finish DZ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finish DZ" />
+    <MESSAGE value="add CounterCounters and Swiper" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CounterCounters and Swiper" />
   </component>
   <component name="WindowStateProjectService">
     <state x="638" y="323" key="#ESLint" timestamp="1640842886001">
@@ -276,26 +213,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1640693685235" />
-    <state width="1515" height="144" key="GridCell.Tab.0.bottom" timestamp="1641105579984">
+    <state width="1515" height="144" key="GridCell.Tab.0.bottom" timestamp="1641115663980">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="144" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1641105579984" />
-    <state width="1515" height="144" key="GridCell.Tab.0.center" timestamp="1641105579984">
+    <state width="1515" height="144" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1641115663980" />
+    <state width="1515" height="144" key="GridCell.Tab.0.center" timestamp="1641115663980">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="144" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1641105579984" />
-    <state width="1515" height="144" key="GridCell.Tab.0.left" timestamp="1641105579984">
+    <state width="1515" height="144" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1641115663980" />
+    <state width="1515" height="144" key="GridCell.Tab.0.left" timestamp="1641115663980">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="144" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1641105579984" />
-    <state width="1515" height="144" key="GridCell.Tab.0.right" timestamp="1641105579984">
+    <state width="1515" height="144" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1641115663980" />
+    <state width="1515" height="144" key="GridCell.Tab.0.right" timestamp="1641115663980">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="144" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1641105579984" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1640710383867">
+    <state width="1515" height="144" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1641115663980" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1641112068399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1640710383867" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1641112068399" />
     <state x="431" y="145" key="search.everywhere.popup" timestamp="1640948872062">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
